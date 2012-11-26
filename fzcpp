@@ -1,0 +1,42 @@
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+#include <deque>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+#include <cstring>
+#define MMset(a, b) memset(a, b, sizeof(a))
+#define MK make_pair
+#define PB push_back
+int dirx[] = {0,1,-1,0,1,1,-1,-1};
+int diry[] = {1,0,0,-1,1,-1,1,-1};
+#define VI vector<int>
+#define VS vector<string>
+
+using namespace std;
+
+class <%:class-name%> {
+public:
+	<%:return-type%> <%:method-name%>(<%:param-type-list%>);
+};
+
+<%:return-type%> <%:class-name%>::<%:method-name%>(<%:param-list%>) {
+	<%:set-caret%>
+}
+
+<%:testing-code%>
+//Powered by [KawigiEdit] 2.0!
+
+
